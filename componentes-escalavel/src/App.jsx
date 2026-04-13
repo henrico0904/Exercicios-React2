@@ -5,6 +5,10 @@ import BotaoUniversal from './components/BotaoUniversal';
 import CrachaVisitante from './components/CrachaVisitante';
 import AvisoSistema from './components/AvisoSistema';
 import ContadorLikes from './components/ContadorLikes';
+import Disjuntor from './components/Disjuntor';
+import CampoDigitacao from './components/CampoDigitação';
+import AcessoBancario from './components/AcessoBancário';
+import SenhaSecreta from './components/SenhaSecreta';
 
 function App() {
     return (
@@ -18,6 +22,10 @@ function App() {
             <CrachaVisitante nome="Lucas Bombom" acesso="ALL" />
             <AvisoSistema mensagem="ERRO CRÍTICO: Banco de dados desconectado!" corAlerta="red" />
             <ContadorLikes/>
+            <Disjuntor/>
+            <CampoDigitacao/>
+            <AcessoBancario/>
+            <SenhaSecreta/>
         </>
     );
 }
